@@ -1,0 +1,24 @@
+{
+  "name": "serverless-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-cli": "^6.7.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.979.0",
+    "busboy": "^0.3.1",
+    "dotenv": "^10.0.0",
+    "formidable": "^1.2.2",
+    "formidable-serverless": "^1.1.1",
+    "multiparty": "^4.2.2",
+    "parse-multipart": "^1.0.4",
+    "query-string": "^7.0.1"
+  }
+}

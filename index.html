@@ -1,0 +1,14 @@
+<html>
+  <head> </head>
+  <body>
+    <form
+      action="http://localhost:8888/.netlify/functions/picUploading"
+      method="POST"
+      enctype="multipart/octet-stream"
+    >
+      <label for="myimage">Upload Image</label>
+      <input type="file" id="myimage" name="image" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
